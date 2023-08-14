@@ -48,6 +48,7 @@ app.get("/tweets", (req, res) => {
     res.send(completeTweets.slice(-10).reverse());
 });
 
+
 // Conectar ao servidor na porta 5000
 const PORT = 5000
 app.listen(PORT, () => console.log(`Servidor rodando na porta ${PORT}`));
